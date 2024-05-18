@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Frontend Mentor | Room homepage</title>
+
+</head>
+<body>
+  <main>
+    <section>
+      <div id="one">
+        <img id="hero_image" src="images/desktop-image-hero-1.jpg" alt="">
+        <nav>
+          <ul id="initial_list">
+            <li><a href="#" id="room">room</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+          <button id="menu_open">
+            <i class='bx bx-menu' style='color:#ffffff'></i>
+          </button>
+        </nav>
+        <div class="hamburger">
+          <ul>
+            <li><a href="#" style="color: black;">home</a></li>
+            <li><a href="#" style="color: black;">shop</a></li>
+            <li><a href="#" style="color: black;">about</a></li>
+            <li><a href="#" style="color: black;">contact</a></li>
+          </ul>
+          <button id="menu_close">
+            <i class='bx bx-menu' style='color:#000000'></i>
+          </button>
+        </div>
+      </div>
+      <div id="two">
+        <h1 id="hero_h1">
+          Discover innovative ways to decorate
+        </h1>
+        <p id="hero_para">
+          We provide unmatched quality, comfort, and style for property owners across the country. 
+          Our experts combine form and function in bringing your vision to life. Create a room in your 
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+        <a href="#">
+          <p>Shop now</p>
+          <i class='bx bx-arrow-back bx-rotate-180' ></i>
+        </a>
+        <div class="btn">
+          <button id="left" onclick="backwards()"><i class='bx bxs-chevron-left' ></i></button>
+          <button id="right" onclick="forwards() ; head()"><i class='bx bxs-chevron-right' ></i></button>
+        </div>
+      </div>
+    </section>
+    <article>
+      <div id="three"></div>
+      <div id="four">
+        <h3>
+          About our furniture
+        </h3>
+        <p>
+          Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+      <div id="five"></div>
+    </article>
+  </main>
+  <img src="" alt="">
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/UtkarshS611">Utkarsh Singh</a>.
+  </div>
+</body>
+
+
+<script src="index.js">
+</script>
+</html>
